@@ -24,6 +24,6 @@ Mailpile is a tool for building and maintaining a tagging search
 engine for a personal collection of e-mail.  It can be used as a
 simple web-mail client.
 """,
-   packages=['mailpile'],
+   packages=['mailpile', 'mailpile/plugins'],
    scripts=['scripts/mailpile'],
 )
